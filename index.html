@@ -1,148 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Subashini S V | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subashini S V | Portfolio</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+    <link rel="stylesheet" href="style.css">
 
-body{
-background:#f4f7fb;
-color:#333;
-}
-
-header{
-background:#0d6efd;
-color:white;
-text-align:center;
-padding:40px 20px;
-}
-
-header h1{
-font-size:40px;
-}
-
-header p{
-font-size:20px;
-margin-top:10px;
-}
-
-nav{
-background:#222;
-padding:15px;
-text-align:center;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
-font-weight:bold;
-}
-
-section{
-padding:40px;
-max-width:900px;
-margin:auto;
-}
-
-.card{
-background:white;
-padding:25px;
-margin-bottom:25px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,.1);
-}
-
-h2{
-color:#0d6efd;
-margin-bottom:15px;
-}
-
-ul{
-padding-left:20px;
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:30px;
-}
-</style>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
-<h1>Subashini S V</h1>
-<p>Aspiring Software Developer</p>
-</header>
+<!-- Navigation -->
 
-<nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#certificates">Certificates</a>
-<a href="#contact">Contact</a>
+<header>
+
+<nav class="navbar">
+
+<h2 class="logo">Subashini S V</h2>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#certificates">Certificates</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="theme-btn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
 </nav>
 
-<section>
+</header>
 
-<div class="card" id="about">
+<!-- Home -->
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Subashini S V</span></h1>
+
+<h3>Aspiring Software Developer</h3>
+
+<p>
+I enjoy creating websites, learning programming,
+and continuously improving my software development skills.
+</p>
+
+<div class="buttons">
+
+<a href="#contact" class="btn">Hire Me</a>
+
+<a href="Gray Minimalist Graphic Designer Resume_20260709_202012_0000.pdf"
+download class="btn secondary">
+Download Resume
+</a>
+
+</div>
+
+<div class="social">
+
+<a href="https://github.com/subashini77" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/subashini-sv-969910419"
+target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="mailto:subashinivinayagam2007@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="profile.jpg" alt="Profile">
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section id="about">
+
 <h2>About Me</h2>
-<p>Hello! I am Subashini S V, an aspiring software developer passionate about programming, web development, and continuous learning.</p>
+
+<div class="card">
+
+<p>
+
+I'm <b>Subashini S V</b>, a B.Sc. Computer Science student
+at <b>Don Bosco College, Dharmapuri</b> under
+<b>Periyar University</b>.
+
+I am passionate about Software Development,
+Web Development, Programming, and learning
+new technologies every day.
+
+</p>
+
 </div>
 
-<div class="card" id="skills">
+</section>
+
+<!-- Education -->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3>B.Sc. Computer Science</h3>
+
+<p>Don Bosco College, Dharmapuri</p>
+
+<p>Periyar University</p>
+
+<p>2024 - 2027</p>
+
+</div>
+
+</section>
+
+<!-- Skills -->
+
+<section id="skills">
+
 <h2>Skills</h2>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Python</li>
-<li>Java</li>
-<li>Git & GitHub</li>
-</ul>
+
+<div class="skill-grid">
+
+<div class="skill">
+<i class="fab fa-html5"></i>
+<p>HTML</p>
 </div>
 
-<div class="card" id="projects">
+<div class="skill">
+<i class="fab fa-css3-alt"></i>
+<p>CSS</p>
+</div>
+
+<div class="skill">
+<i class="fab fa-js"></i>
+<p>JavaScript</p>
+</div>
+
+<div class="skill">
+<i class="fab fa-python"></i>
+<p>Python</p>
+</div>
+
+<div class="skill">
+<i class="fab fa-java"></i>
+<p>Java</p>
+</div>
+
+<div class="skill">
+<i class="fab fa-github"></i>
+<p>GitHub</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Projects -->
+
+<section id="projects">
+
 <h2>Projects</h2>
-<ul>
-<li>Personal Portfolio Website</li>
-<li>More projects coming soon...</li>
-</ul>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<h3>Portfolio Website</h3>
+
+<p>Personal portfolio built using HTML, CSS and JavaScript.</p>
+
 </div>
 
-<div class="card" id="certificates">
+<div class="project-card">
+
+<h3>Upcoming Projects</h3>
+
+<p>More exciting software projects will be added here.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Certificates -->
+
+<section id="certificates">
+
 <h2>Certificates</h2>
+
+<div class="card">
+
 <ul>
-<li>freeCodeCamp</li>
-<li>Saylor Academy</li>
-<li>More certifications coming soon...</li>
+
+<li>Python Training Program</li>
+
+<li>HTML Certification - SkillCaptain</li>
+
+<li>CSS Certification - SkillCaptain</li>
+
+<li>Claude Foundations</li>
+
+<li>Communication Skills</li>
+
+<li>PGDCTT</li>
+
 </ul>
+
 </div>
 
-<div class="card" id="contact">
-<h2>Contact</h2>
-<p>Email: your-email@example.com</p>
-<p>GitHub: github.com/subashini77</p>
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<div class="card">
+
+<p><b>Email:</b> subashinivinayagam2007@gmail.com</p>
+
+<p><b>Location:</b> Dharmapuri, Tamil Nadu</p>
+
+<p><b>GitHub:</b> github.com/subashini77</p>
+
+<p><b>LinkedIn:</b> linkedin.com/in/subashini-sv-969910419</p>
+
 </div>
 
 </section>
 
 <footer>
+
 <p>© 2026 Subashini S V | All Rights Reserved</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
